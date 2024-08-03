@@ -1,47 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <script src="script.js" defer></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Focus on Today</title>
-</head>
-
-<body>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Style+Script&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
     <main>
-        <h1 class="title">Focus on <span>Today</span></h1>
-        <div class="container">
-            <h2 class="sub-title">Today
-                <img class="sun" src="Sun.svg" alt="sun">
-            </h2>
-            <p class="bar-title">Raise the bar by completing your goals!</p>
-            <div class="bar">
-                <div class="bar-value">
-                    <p class="bar-value-text">2/3 Completed</p>
-                </div>
-            </div>
-            <p class="warning-text">Please set all the 3 goals!</p>
-            <div class="goal-container">
-                <div class="custom-checkbox"></div>
-                <input type="text" class="goal-text" placeholder="Add new goal...">
-            </div>
-            <div class="goal-container">
-                <div class="custom-checkbox"></div>
-                <input type="text" class="goal-text" placeholder="Add new goal...">
-            </div>
-            <div class="goal-container">
-                <div class="custom-checkbox"></div>
-                <input type="text" class="goal-text" placeholder="Add new goal...">
-            </div>
-            <p class="quote">“Move one step ahead, today!”</p>
-            <p class="madeBy">Made with  ❤️ by Atharv Mali </p>
+      <h1 class="title">Focus on <span>Today</span></h1>
+      <div class="app-container">
+        <h2 class="subtitle">
+          <span>Today</span>
+          <img class="sun-icon" src="Sun.svg" alt="sun" />
+        </h2>
+        <p class="progress-label">Raise the bar by completing your goals!</p>
+        <div class="progress-bar">
+          <div class="progress-value">
+            <span>2/3 Completed</span>
+          </div>
+          <p class="error-label">Please set all the 3 goals!</p>
         </div>
-    </main>
-</body>
 
+        <div class="goal-container">
+          <div class="custom-checkbox">
+            <img
+              class="check-icon"
+              src="Tick.svg"
+              alt="check-icon"
+            />
+          </div>
+          <input
+            class="goal-input"
+            type="text"
+            placeholder="Add new goal... "
+          />
+        </div>
+        <div class="goal-container">
+          <div class="custom-checkbox">
+            <img
+              class="check-icon"
+              src="Tick.svg"
+              alt="check-icon"
+            />
+          </div>
+          <input
+            class="goal-input"
+            type="text"
+            placeholder="Add new goal... "
+          />
+        </div>
+        <div class="goal-container">
+          <div class="custom-checkbox">
+            <img
+              class="check-icon"
+              src="Tick.svg"
+              alt="check-icon"
+            />
+          </div>
+          <input
+            class="goal-input"
+            type="text"
+            placeholder="Add new goal... "
+          />
+        </div>
+
+        <p class="quote">“Move one step ahead, today!”</p>
+        <p class="made-with">Made with ❤️ by Atharv Mali</p>
+      </div>
+    </main>
+  </body>
 </html>
