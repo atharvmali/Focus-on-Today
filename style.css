@@ -12,7 +12,9 @@ body {
     color: rgba(72, 163, 0, 1);
     font-size: 64px;
     font-weight: 700;
+    width: 660px;
     text-align: center;
+    margin: 0 auto;
 }
 
 .title span {
@@ -126,4 +128,10 @@ body {
     font-weight: 500;
     color: rgba(133, 133, 133, 1);
     text-align: center;
+}
+
+@media (max-width: 680px) {
+    .title {
+        /* font-size: 32px; */
+    }
 }
